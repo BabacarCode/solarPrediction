@@ -30,7 +30,7 @@ Normalisation des variables lorsque nécessaire.
 #### Modélisation :
 
 Utilisation de la régression linéaire pour prédire la production d'énergie solaire.
-Évaluation de la performance à l'aide de métriques comme le R² et la MAE (Mean Absolute Error).
+Évaluation de la performance à l'aide de métriques comme le R² et l'Erreur quadratique moyenne (MSE)
 
 #### Résultats:
 
