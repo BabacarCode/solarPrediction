@@ -40,7 +40,7 @@ Utilisation de la régression linéaire pour prédire la production d'énergie s
 
 Le modèle construit fournit des prédictions qui montrent une corrélation raisonnable avec les valeurs réelles. Les visualisations aident à comprendre les facteurs les plus influents sur la production d'énergie.
 
-####Limitations
+#### Limitations
 
 Jeu de données limité à 34 jours, ce qui peut affecter la généralisation des résultats.
 
