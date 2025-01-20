@@ -4,14 +4,13 @@ Ce projet a été réalisé en autodidacte dans le cadre de mon apprentissage de
 
 ## Objectifs du Projet
 
-L'objectif principal de ce projet est de prédire la production d'énergie solaire à partir de différents capteurs installés dans deux centrales solaires. Ces prédictions pourraient aider à optimiser la gestion des centrales et mieux comprendre l'impact des paramètres environnementaux.
+L'objectif principal de ce projet est de prédire la production d'énergie solaire à partir de différents capteurs installés dans un centrale solaire.
+Ces prédictions pourraient aider à optimiser la gestion des centrales et mieux comprendre l'impact des paramètres environnementaux.
 
-### Jeu de Données
+## Jeu de Données
 
 Le jeu de données contient des informations collectées pendant 34 jours dans deux centrales solaires en Inde. Il inclut :
-
 La production d'énergie au niveau des onduleurs.
-
 Les relevés des capteurs (température, rayonnement solaire, etc.).
 
 ## Méthodologie
@@ -21,27 +20,24 @@ Les relevés des capteurs (température, rayonnement solaire, etc.).
 #### Nettoyage des données.
 
 Analyse des tendances et des corrélations entre les variables.
-
 Visualisation des données à l'aide de graphiques comme les heatmaps pour étudier les corrélations.
 
 #### Préparation des Données :
 
 Division des données en ensembles d'entraînement et de test.
-
 Normalisation des variables lorsque nécessaire.
 
 #### Modélisation :
 
 Utilisation de la régression linéaire pour prédire la production d'énergie solaire.
-
 Évaluation de la performance à l'aide de métriques comme le R² et la MAE (Mean Absolute Error).
 
-#### Résultats
+#### Résultats:
 
-Le modèle construit fournit des prédictions qui montrent une corrélation raisonnable avec les valeurs réelles. Les visualisations aident à comprendre les facteurs les plus influents sur la production d'énergie.
+Le modèle construit fournit des prédictions qui montrent une corrélation raisonnable avec les valeurs réelles. 
+Les visualisations aident à comprendre les facteurs les plus influents sur la production d'énergie.
 
-#### Limitations
+#### Limites:
 
 Jeu de données limité à 34 jours, ce qui peut affecter la généralisation des résultats.
-
 Modèle simple basé sur la régression linéaire : d'autres modèles avancés pourraient être explorés.
