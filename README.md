@@ -9,7 +9,7 @@ Ces prédictions pourraient aider à optimiser la gestion des centrales et mieux
 
 ## Jeu de Données
 
-Le jeu de données contient des informations collectées pendant 34 jours dans deux centrales solaires en Inde. Il inclut :
+Le jeu de données contient des informations collectées pendant 34 jours dans un centrale solaire en Inde. Il inclut :
 La production d'énergie au niveau des onduleurs.
 Les relevés des capteurs (température, rayonnement solaire, etc.).
 
@@ -25,7 +25,7 @@ Visualisation des données à l'aide de graphiques comme les heatmaps pour étud
 #### Préparation des Données :
 
 Division des données en ensembles d'entraînement et de test.
-Normalisation des variables lorsque nécessaire.
+Dans ce projet, la normalisation n'a pas d'impact sur le modèle car le résultat reste inchangé.
 
 #### Modélisation :
 
@@ -36,6 +36,7 @@ Utilisation de la régression linéaire pour prédire la production d'énergie s
 
 Le modèle construit fournit des prédictions qui montrent une corrélation raisonnable avec les valeurs réelles. 
 Les visualisations aident à comprendre les facteurs les plus influents sur la production d'énergie.
+Même avec ce modele de prediction simple , nous atténons une prediction de 0.98 soit 98%.
 
 #### Limites:
 
